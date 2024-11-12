@@ -8,16 +8,6 @@
       body {
         background-color: aquamarine;
       }
-      .timer-wrapper {
-        position: relative;
-        width: 120px;
-        height: 120px;
-      }
-      .progress-ring {
-        position: absolute;
-        top: 25em;
-        left: 55em;
-      }
       #Timer {
         position: absolute;
         top: 47%;
@@ -30,21 +20,8 @@
     </style>
   </head>
   <body>
-    <svg class="progress-ring">
-      <circle
-        class="progress-ring-circle"
-        stroke="black"
-        stroke-width="5"
-        fill="transparent"
-        r="58"
-        cx="60"
-        cy="60"
-      />
-    </svg>
-    <p id="Timer" class="timer-text">
-      <span id="rimanenti">Secondi</span><br />
-      <span id="seconds">100</span>
-      <span id="testoRimanenti">rimanenti</span>
+    <p id="Timer">
+      <span>0</span>
     </p>
     <script src="./script/script.js"></script>
   </body>
